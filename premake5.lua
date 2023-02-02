@@ -17,6 +17,9 @@ project "glad"
 	{
 		"include"
 	}
+	
+	filter "files:**.h"
+		compileas "HeaderUnit"
 
     filter "system:windows"
         systemversion "latest"
