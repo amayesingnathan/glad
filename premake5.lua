@@ -1,7 +1,7 @@
 project "glad"
     kind "StaticLib"
     language "C"
-    staticruntime "on"
+    staticruntime "off"
 		
     targetdir 	("%{wks.location}/bin/%{prj.name}/" .. outputDir)
     objdir 		("%{wks.location}/obj/%{prj.name}/" .. outputDir)
